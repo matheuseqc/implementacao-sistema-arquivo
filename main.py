@@ -49,7 +49,6 @@ class FileSystem:
             'start': allocated_blocks[0]
         }
         print(f"Arquivo '{name}' criado com sucesso.")
-        self.printDisk()
 
     def readFile(self):
         name = input("Digite o nome do arquivo a ser lido: ")
@@ -64,7 +63,6 @@ class FileSystem:
             content.append(block.char)
             current = block.pointer
         print(f"Conteúdo do arquivo '{name}':", ''.join(content))
-        self.printDisk()
 
     def deleteFile(self):
         name = input("Digite o nome do arquivo a ser excluído: ")
@@ -85,7 +83,6 @@ class FileSystem:
         # Remove metadados do arquivo
         del self.file_table[name]
         print(f"Arquivo '{name}' excluído com sucesso.")
-        self.printDisk()
 
     def printDisk(self):
         print("\nEstado do Disco:")
