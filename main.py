@@ -142,11 +142,11 @@ def main():
             input("\nPressione Enter para prosseguir...")
         elif escolha_usuario == '0':
             print("\nSaindo do programa...")
-            time.sleep(3)
+            time.sleep(2)
             break
         else:
             print("\nEscolha inválida! Por favor, tente novamente.")
-            time.sleep(3)
+            time.sleep(2)
 
 if __name__ == "__main__":
     main()
