@@ -35,7 +35,7 @@ Este projeto implementa uma simulação de um sistema de arquivos básico em Pyt
    git clone https://github.com/seu_usuario/file-system-simulation.git
 2. Navegue até o diretório do projeto:
    ```bash
-   cd file-system-simulation
+   cd implementacao-sistema-arquivo
 3. Execute o script:
    ```bash
    python main.py
