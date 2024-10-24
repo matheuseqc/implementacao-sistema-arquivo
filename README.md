@@ -1,4 +1,4 @@
-# Simulação de Sistema de Arquivos
+# Implementação de Sistema de Arquivos
 
 Este projeto implementa uma simulação de um sistema de arquivos básico em Python. O objetivo é demonstrar a alocação de blocos de memória, criação, leitura, exclusão e gerenciamento de arquivos de forma simplificada.
 
